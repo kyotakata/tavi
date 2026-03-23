@@ -17,7 +17,7 @@ export default function RootLayout({
       className={`${robotoSerif.className} ${notoSansJP.className}`}
     >
       <Header />
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
