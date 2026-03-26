@@ -34,7 +34,7 @@ export default function PlanCreatePage() {
     <div className="max-w-3xl mx-auto py-20">
       {/* タイトル */}
       <div className="mb-6">
-        <Label>日付</Label>
+        <Label>タイトル</Label>
         <Input className="p-4" placeholder="例：沖縄3泊4日の旅" />
       </div>
       {/* メモ */}
@@ -69,7 +69,7 @@ export default function PlanCreatePage() {
         </div>
       ))}
       <Button type="button" onClick={addSchedule}>＋ 追加</Button>
-      <Button>作成</Button>
+      <Button type="button" >作成</Button>
     </div>
   );
 }
